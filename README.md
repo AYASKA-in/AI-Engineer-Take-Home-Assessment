@@ -209,8 +209,8 @@ flowchart TD
 ### Step 1: Clone and enter the project
 
 ```bash
-git clone <your-repo-url>
-cd pearson-specter-litt
+git clone https://github.com/AYASKA-in/AI-Engineer-Take-Home-Assessment.git
+cd AI-Engineer-Take-Home-Assessment
 ```
 
 ### Step 2: Create and activate a virtual environment
