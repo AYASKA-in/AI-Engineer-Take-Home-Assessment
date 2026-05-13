@@ -1,0 +1,738 @@
+{
+  "case_id": "case_d",
+  "documents": [
+    {
+      "source_path": "samples\\case_files\\case_d\\damaged_scan.txt",
+      "doc_type": "ocr",
+      "text": "??? COURT OF ??? [illegible]\nPlaintiff: ??? [unreadable]\nDefendant: ??? Holdings\n\n??? alleges ??? failed to ??? under ??? agreement.\n?? parties ??? on ??? 198?.\n[illegible] required ??? to provide ??? reports.\n??? contends that ??? was delivered before ??? invoice.\nInvoice ?? sought payment of $??? for ??? work.\n[illegible] witness note states \"??? observed near ??? wall.\"\n",
+      "lines": [
+        {
+          "text": "??? COURT OF ??? [illegible]",
+          "page": 1,
+          "line": 1,
+          "confidence": 0.55,
+          "tier": "LOW",
+          "unclear_marker": true
+        },
+        {
+          "text": "Plaintiff: ??? [unreadable]",
+          "page": 1,
+          "line": 2,
+          "confidence": 0.55,
+          "tier": "LOW",
+          "unclear_marker": true
+        },
+        {
+          "text": "Defendant: ??? Holdings",
+          "page": 1,
+          "line": 3,
+          "confidence": 0.55,
+          "tier": "LOW",
+          "unclear_marker": true
+        },
+        {
+          "text": "??? alleges ??? failed to ??? under ??? agreement.",
+          "page": 1,
+          "line": 4,
+          "confidence": 0.55,
+          "tier": "LOW",
+          "unclear_marker": true
+        },
+        {
+          "text": "?? parties ??? on ??? 198?.",
+          "page": 1,
+          "line": 5,
+          "confidence": 0.55,
+          "tier": "LOW",
+          "unclear_marker": true
+        },
+        {
+          "text": "[illegible] required ??? to provide ??? reports.",
+          "page": 1,
+          "line": 6,
+          "confidence": 0.55,
+          "tier": "LOW",
+          "unclear_marker": true
+        },
+        {
+          "text": "??? contends that ??? was delivered before ??? invoice.",
+          "page": 1,
+          "line": 7,
+          "confidence": 0.55,
+          "tier": "LOW",
+          "unclear_marker": true
+        },
+        {
+          "text": "Invoice ?? sought payment of $??? for ??? work.",
+          "page": 1,
+          "line": 8,
+          "confidence": 0.55,
+          "tier": "LOW",
+          "unclear_marker": true
+        },
+        {
+          "text": "[illegible] witness note states \"??? observed near ??? wall.\"",
+          "page": 1,
+          "line": 9,
+          "confidence": 0.55,
+          "tier": "LOW",
+          "unclear_marker": true
+        }
+      ],
+      "structured_fields": {
+        "dates": [],
+        "parties": [],
+        "sections": [],
+        "amounts": [],
+        "allegations": [
+          "??? alleges ??? failed to ??? under ??? agreement.",
+          "alleges ???",
+          "failed to ???"
+        ],
+        "obligations": [
+          "[illegible] required ??? to provide ??? reports.",
+          "??? contends that ??? was delivered before ??? invoice.",
+          "[illegible] required ???",
+          "was delivered before ???"
+        ],
+        "field_counts": {
+          "dates": 0,
+          "parties": 0,
+          "sections": 0,
+          "amounts": 0
+        }
+      },
+      "average_confidence": 0.64,
+      "warnings": [
+        "Partially unclear OCR content detected."
+      ],
+      "skipped_regions": [],
+      "overall_tier": "LOW"
+    },
+    {
+      "source_path": "samples\\case_files\\case_d\\partial_note_scan.txt",
+      "doc_type": "ocr",
+      "text": "Partial note recovered from damaged original:\n??? date reads ??/??/84 \u2014 month and day unclear.\nConflicting statement A: \"Contractor confirmed all deliverables complete.\"\nConflicting statement B: \"Contractor failed to submit any deliverables.\"\nNo resolution found in available records.\n",
+      "lines": [
+        {
+          "text": "Partial note recovered from damaged original:",
+          "page": 1,
+          "line": 1,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "??? date reads ??/??/84 \u2014 month and day unclear.",
+          "page": 1,
+          "line": 2,
+          "confidence": 0.55,
+          "tier": "LOW",
+          "unclear_marker": true
+        },
+        {
+          "text": "Conflicting statement A: \"Contractor confirmed all deliverables complete.\"",
+          "page": 1,
+          "line": 3,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Conflicting statement B: \"Contractor failed to submit any deliverables.\"",
+          "page": 1,
+          "line": 4,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "No resolution found in available records.",
+          "page": 1,
+          "line": 5,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        }
+      ],
+      "structured_fields": {
+        "dates": [],
+        "parties": [],
+        "sections": [],
+        "amounts": [],
+        "allegations": [
+          "Conflicting statement B: \"Contractor failed to submit any deliverables.\"",
+          "Conflicting statement A: \"Contractor confirmed all deliverables complete.\" Conflicting statement B: \"Contractor failed to submit any deliverables.\" No resolution found in available records."
+        ],
+        "obligations": [
+          "Conflicting statement A: \"Contractor confirmed all deliverables complete.\"",
+          "Conflicting statement B: \"Contractor failed to submit any deliverables.\"",
+          "Conflicting statement A: \"Contractor confirmed all deliverables complete.\" Conflicting statement B: \"Contractor failed to submit any deliverables.\" No resolution found in available records."
+        ],
+        "field_counts": {
+          "dates": 0,
+          "parties": 0,
+          "sections": 0,
+          "amounts": 0
+        }
+      },
+      "average_confidence": 0.64,
+      "warnings": [
+        "Partially unclear OCR content detected."
+      ],
+      "skipped_regions": [],
+      "overall_tier": "LOW"
+    }
+  ],
+  "draft": {
+    "memo_markdown": "# First-Pass Internal Memo: case_d\n\n## Summary\n- The source set contains ambiguity signals that warrant manual review before relying on any final legal conclusion. [damaged_scan.txt p1:5-8]\n\n## Matter overview\n- **INSUFFICIENT EVIDENCE**: No reliable source evidence was found for this section. Draft withheld to avoid unsupported claims. [No evidence chunks above minimum retrieval score]\n\n## Key parties\n- ??? COURT OF ??? [illegible] Plaintiff: ??? [unreadable] Defendant: ??? Holdings ??? alleges ??? failed to ??? under ??? agreement. [damaged_scan.txt p1:1-4]\n\n## Timeline\n- Partial note recovered from damaged original: ??? date reads ??/??/84 \u2014 month and day unclear. Conflicting statement A: \"Contractor confirmed all deliverables complete.\" Conflicting statement B: \"Contractor failed to submit any deliverables.\" [partial_note_scan.txt p1:1-4]\n\n## Allegations and obligations\n- ??? alleges ??? failed to ??? under ??? agreement. [partial_note_scan.txt p1:1-4]\n- [illegible] required ??? to provide ??? reports. [damaged_scan.txt p1:5-8]\n\n## Open questions\n- **INSUFFICIENT EVIDENCE**: No reliable source evidence was found for this section. Draft withheld to avoid unsupported claims. [No evidence chunks above minimum retrieval score]\n",
+    "section_evidence": {
+      "Summary": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_d\\damaged_scan.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_d\\damaged_scan.txt",
+            "text": "?? parties ??? on ??? 198?. [illegible] required ??? to provide ??? reports. ??? contends that ??? was delivered before ??? invoice. Invoice ?? sought payment of $??? for ??? work.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 8,
+            "confidence": 0.55,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "damaged_scan.txt p1:5-8"
+          },
+          "score": 0.0792,
+          "lexical_score": 0.1,
+          "semantic_score": 0.055,
+          "rerank_score": -0.05,
+          "matched_terms": [
+            "parties"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_d\\partial_note_scan.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_d\\partial_note_scan.txt",
+            "text": "No resolution found in available records.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 5,
+            "confidence": 0.74,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "partial_note_scan.txt p1:5-5"
+          },
+          "score": 0.074,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.0,
+          "matched_terms": []
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_d\\partial_note_scan.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_d\\partial_note_scan.txt",
+            "text": "Partial note recovered from damaged original: ??? date reads ??/??/84 \u2014 month and day unclear. Conflicting statement A: \"Contractor confirmed all deliverables complete.\" Conflicting statement B: \"Contractor failed to submit any deliverables.\"",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.6925000000000001,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "partial_note_scan.txt p1:1-4"
+          },
+          "score": 0.0693,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.0,
+          "matched_terms": []
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_d\\damaged_scan.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_d\\damaged_scan.txt",
+            "text": "??? COURT OF ??? [illegible] Plaintiff: ??? [unreadable] Defendant: ??? Holdings ??? alleges ??? failed to ??? under ??? agreement.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.55,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "damaged_scan.txt p1:1-4"
+          },
+          "score": 0.005,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": -0.05,
+          "matched_terms": []
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_d\\damaged_scan.txt::chunk-3",
+            "source_path": "samples\\case_files\\case_d\\damaged_scan.txt",
+            "text": "[illegible] witness note states \"??? observed near ??? wall.\"",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 9,
+            "line_end": 9,
+            "confidence": 0.55,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "damaged_scan.txt p1:9-9"
+          },
+          "score": 0.005,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": -0.05,
+          "matched_terms": []
+        }
+      ],
+      "Matter overview": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_d\\damaged_scan.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_d\\damaged_scan.txt",
+            "text": "?? parties ??? on ??? 198?. [illegible] required ??? to provide ??? reports. ??? contends that ??? was delivered before ??? invoice. Invoice ?? sought payment of $??? for ??? work.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 8,
+            "confidence": 0.55,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "damaged_scan.txt p1:5-8"
+          },
+          "score": 0.0954,
+          "lexical_score": 0.125,
+          "semantic_score": 0.0618,
+          "rerank_score": -0.05,
+          "matched_terms": [
+            "payment"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_d\\partial_note_scan.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_d\\partial_note_scan.txt",
+            "text": "No resolution found in available records.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 5,
+            "confidence": 0.74,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "partial_note_scan.txt p1:5-5"
+          },
+          "score": 0.074,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.0,
+          "matched_terms": []
+        }
+      ],
+      "Key parties": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_d\\damaged_scan.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_d\\damaged_scan.txt",
+            "text": "??? COURT OF ??? [illegible] Plaintiff: ??? [unreadable] Defendant: ??? Holdings ??? alleges ??? failed to ??? under ??? agreement.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.55,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "damaged_scan.txt p1:1-4"
+          },
+          "score": 0.1723,
+          "lexical_score": 0.2,
+          "semantic_score": 0.1638,
+          "rerank_score": -0.05,
+          "matched_terms": [
+            "defendant",
+            "plaintiff"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_d\\partial_note_scan.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_d\\partial_note_scan.txt",
+            "text": "Partial note recovered from damaged original: ??? date reads ??/??/84 \u2014 month and day unclear. Conflicting statement A: \"Contractor confirmed all deliverables complete.\" Conflicting statement B: \"Contractor failed to submit any deliverables.\"",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.6925000000000001,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "partial_note_scan.txt p1:1-4"
+          },
+          "score": 0.1553,
+          "lexical_score": 0.1,
+          "semantic_score": 0.0887,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "contractor"
+          ]
+        }
+      ],
+      "Timeline": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_d\\partial_note_scan.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_d\\partial_note_scan.txt",
+            "text": "Partial note recovered from damaged original: ??? date reads ??/??/84 \u2014 month and day unclear. Conflicting statement A: \"Contractor confirmed all deliverables complete.\" Conflicting statement B: \"Contractor failed to submit any deliverables.\"",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.6925000000000001,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "partial_note_scan.txt p1:1-4"
+          },
+          "score": 0.1658,
+          "lexical_score": 0.1429,
+          "semantic_score": 0.0515,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "date"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_d\\damaged_scan.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_d\\damaged_scan.txt",
+            "text": "?? parties ??? on ??? 198?. [illegible] required ??? to provide ??? reports. ??? contends that ??? was delivered before ??? invoice. Invoice ?? sought payment of $??? for ??? work.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 8,
+            "confidence": 0.55,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "damaged_scan.txt p1:5-8"
+          },
+          "score": 0.1076,
+          "lexical_score": 0.1429,
+          "semantic_score": 0.0687,
+          "rerank_score": -0.05,
+          "matched_terms": [
+            "invoice"
+          ]
+        }
+      ],
+      "Allegations and obligations": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_d\\partial_note_scan.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_d\\partial_note_scan.txt",
+            "text": "Partial note recovered from damaged original: ??? date reads ??/??/84 \u2014 month and day unclear. Conflicting statement A: \"Contractor confirmed all deliverables complete.\" Conflicting statement B: \"Contractor failed to submit any deliverables.\"",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.6925000000000001,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "partial_note_scan.txt p1:1-4"
+          },
+          "score": 0.1407,
+          "lexical_score": 0.1111,
+          "semantic_score": 0.0295,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "failed"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_d\\damaged_scan.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_d\\damaged_scan.txt",
+            "text": "?? parties ??? on ??? 198?. [illegible] required ??? to provide ??? reports. ??? contends that ??? was delivered before ??? invoice. Invoice ?? sought payment of $??? for ??? work.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 8,
+            "confidence": 0.55,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "damaged_scan.txt p1:5-8"
+          },
+          "score": 0.0872,
+          "lexical_score": 0.1111,
+          "semantic_score": 0.0604,
+          "rerank_score": -0.05,
+          "matched_terms": [
+            "required"
+          ]
+        }
+      ],
+      "Open questions": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_d\\damaged_scan.txt::chunk-3",
+            "source_path": "samples\\case_files\\case_d\\damaged_scan.txt",
+            "text": "[illegible] witness note states \"??? observed near ??? wall.\"",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 9,
+            "line_end": 9,
+            "confidence": 0.55,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "damaged_scan.txt p1:9-9"
+          },
+          "score": 0.0915,
+          "lexical_score": 0.125,
+          "semantic_score": 0.0507,
+          "rerank_score": -0.05,
+          "matched_terms": [
+            "illegible"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_d\\damaged_scan.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_d\\damaged_scan.txt",
+            "text": "??? COURT OF ??? [illegible] Plaintiff: ??? [unreadable] Defendant: ??? Holdings ??? alleges ??? failed to ??? under ??? agreement.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.55,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "damaged_scan.txt p1:1-4"
+          },
+          "score": 0.0875,
+          "lexical_score": 0.125,
+          "semantic_score": 0.0392,
+          "rerank_score": -0.05,
+          "matched_terms": [
+            "illegible"
+          ]
+        }
+      ]
+    },
+    "metrics": {
+      "substantive_lines": 7,
+      "cited_lines": 5,
+      "evidence_coverage": 0.714,
+      "unsupported_claims": 2,
+      "unclear_claims": 0
+    },
+    "section_grounding": [
+      {
+        "section_name": "Matter overview",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "evidence_count": 0,
+        "top_score": 0.0,
+        "avg_confidence": 0.0,
+        "reason": "No evidence chunks above minimum retrieval score"
+      },
+      {
+        "section_name": "Key parties",
+        "status": "GROUNDED",
+        "evidence_count": 2,
+        "top_score": 0.1723,
+        "avg_confidence": 0.621,
+        "reason": ""
+      },
+      {
+        "section_name": "Timeline",
+        "status": "GROUNDED",
+        "evidence_count": 2,
+        "top_score": 0.1658,
+        "avg_confidence": 0.621,
+        "reason": ""
+      },
+      {
+        "section_name": "Allegations and obligations",
+        "status": "GROUNDED",
+        "evidence_count": 1,
+        "top_score": 0.1407,
+        "avg_confidence": 0.693,
+        "reason": ""
+      },
+      {
+        "section_name": "Open questions",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "evidence_count": 0,
+        "top_score": 0.0,
+        "avg_confidence": 0.0,
+        "reason": "No evidence chunks above minimum retrieval score"
+      }
+    ],
+    "overall_grounding_status": "INSUFFICIENT_EVIDENCE",
+    "extraction_warnings": []
+  },
+  "support_map": {
+    "Summary": [
+      {
+        "citation": "damaged_scan.txt p1:5-8",
+        "text": "?? parties ??? on ??? 198?. [illegible] required ??? to provide ??? reports. ??? contends that ??? was delivered before ??? invoice. Invoice ?? sought payment of $??? for ??? work.",
+        "score": 0.0792,
+        "confidence": 0.55
+      },
+      {
+        "citation": "partial_note_scan.txt p1:5-5",
+        "text": "No resolution found in available records.",
+        "score": 0.074,
+        "confidence": 0.74
+      },
+      {
+        "citation": "partial_note_scan.txt p1:1-4",
+        "text": "Partial note recovered from damaged original: ??? date reads ??/??/84 \u2014 month and day unclear. Conflicting statement A: \"Contractor confirmed all deliverables complete.\" Conflicting statement B: \"Contractor failed to submit any deliverables.\"",
+        "score": 0.0693,
+        "confidence": 0.693
+      },
+      {
+        "citation": "damaged_scan.txt p1:1-4",
+        "text": "??? COURT OF ??? [illegible] Plaintiff: ??? [unreadable] Defendant: ??? Holdings ??? alleges ??? failed to ??? under ??? agreement.",
+        "score": 0.005,
+        "confidence": 0.55
+      },
+      {
+        "citation": "damaged_scan.txt p1:9-9",
+        "text": "[illegible] witness note states \"??? observed near ??? wall.\"",
+        "score": 0.005,
+        "confidence": 0.55
+      }
+    ],
+    "Matter overview": [
+      {
+        "citation": "damaged_scan.txt p1:5-8",
+        "text": "?? parties ??? on ??? 198?. [illegible] required ??? to provide ??? reports. ??? contends that ??? was delivered before ??? invoice. Invoice ?? sought payment of $??? for ??? work.",
+        "score": 0.0954,
+        "confidence": 0.55
+      },
+      {
+        "citation": "partial_note_scan.txt p1:5-5",
+        "text": "No resolution found in available records.",
+        "score": 0.074,
+        "confidence": 0.74
+      }
+    ],
+    "Key parties": [
+      {
+        "citation": "damaged_scan.txt p1:1-4",
+        "text": "??? COURT OF ??? [illegible] Plaintiff: ??? [unreadable] Defendant: ??? Holdings ??? alleges ??? failed to ??? under ??? agreement.",
+        "score": 0.1723,
+        "confidence": 0.55
+      },
+      {
+        "citation": "partial_note_scan.txt p1:1-4",
+        "text": "Partial note recovered from damaged original: ??? date reads ??/??/84 \u2014 month and day unclear. Conflicting statement A: \"Contractor confirmed all deliverables complete.\" Conflicting statement B: \"Contractor failed to submit any deliverables.\"",
+        "score": 0.1553,
+        "confidence": 0.693
+      }
+    ],
+    "Timeline": [
+      {
+        "citation": "partial_note_scan.txt p1:1-4",
+        "text": "Partial note recovered from damaged original: ??? date reads ??/??/84 \u2014 month and day unclear. Conflicting statement A: \"Contractor confirmed all deliverables complete.\" Conflicting statement B: \"Contractor failed to submit any deliverables.\"",
+        "score": 0.1658,
+        "confidence": 0.693
+      },
+      {
+        "citation": "damaged_scan.txt p1:5-8",
+        "text": "?? parties ??? on ??? 198?. [illegible] required ??? to provide ??? reports. ??? contends that ??? was delivered before ??? invoice. Invoice ?? sought payment of $??? for ??? work.",
+        "score": 0.1076,
+        "confidence": 0.55
+      }
+    ],
+    "Allegations and obligations": [
+      {
+        "citation": "partial_note_scan.txt p1:1-4",
+        "text": "Partial note recovered from damaged original: ??? date reads ??/??/84 \u2014 month and day unclear. Conflicting statement A: \"Contractor confirmed all deliverables complete.\" Conflicting statement B: \"Contractor failed to submit any deliverables.\"",
+        "score": 0.1407,
+        "confidence": 0.693
+      },
+      {
+        "citation": "damaged_scan.txt p1:5-8",
+        "text": "?? parties ??? on ??? 198?. [illegible] required ??? to provide ??? reports. ??? contends that ??? was delivered before ??? invoice. Invoice ?? sought payment of $??? for ??? work.",
+        "score": 0.0872,
+        "confidence": 0.55
+      }
+    ],
+    "Open questions": [
+      {
+        "citation": "damaged_scan.txt p1:9-9",
+        "text": "[illegible] witness note states \"??? observed near ??? wall.\"",
+        "score": 0.0915,
+        "confidence": 0.55
+      },
+      {
+        "citation": "damaged_scan.txt p1:1-4",
+        "text": "??? COURT OF ??? [illegible] Plaintiff: ??? [unreadable] Defendant: ??? Holdings ??? alleges ??? failed to ??? under ??? agreement.",
+        "score": 0.0875,
+        "confidence": 0.55
+      }
+    ]
+  },
+  "section_grounding": [
+    {
+      "section_name": "Matter overview",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "evidence_count": 0,
+      "top_score": 0.0,
+      "avg_confidence": 0.0,
+      "reason": "No evidence chunks above minimum retrieval score"
+    },
+    {
+      "section_name": "Key parties",
+      "status": "GROUNDED",
+      "evidence_count": 2,
+      "top_score": 0.1723,
+      "avg_confidence": 0.621,
+      "reason": ""
+    },
+    {
+      "section_name": "Timeline",
+      "status": "GROUNDED",
+      "evidence_count": 2,
+      "top_score": 0.1658,
+      "avg_confidence": 0.621,
+      "reason": ""
+    },
+    {
+      "section_name": "Allegations and obligations",
+      "status": "GROUNDED",
+      "evidence_count": 1,
+      "top_score": 0.1407,
+      "avg_confidence": 0.693,
+      "reason": ""
+    },
+    {
+      "section_name": "Open questions",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "evidence_count": 0,
+      "top_score": 0.0,
+      "avg_confidence": 0.0,
+      "reason": "No evidence chunks above minimum retrieval score"
+    }
+  ],
+  "overall_grounding_status": "INSUFFICIENT_EVIDENCE"
+}

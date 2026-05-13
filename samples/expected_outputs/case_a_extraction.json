@@ -1,0 +1,267 @@
+{
+  "documents": [
+    {
+      "source_path": "samples\\case_files\\case_a\\complaint_scan.ocr.txt",
+      "doc_type": "ocr",
+      "text": "SUPREME COURT OF NEW YORK\nPlaintiff: Hudson Valley Development LLC\nDefendant: Mercer Construction Group, Inc.\n\nThe plaintiff alleges breach of contract arising from renovation services at 18 Morton Street.\nThe parties signed the master services agreement on October 5, 1984.\nSection 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay.\nHudson Valley Development LLC contends that no written delay notice was delivered before the October invoice.\nInvoice no. 4421 sought payment of $185,000 for structural work.\n[illegible] witness note states \"cracks observed near east retaining wall.\"\n\n",
+      "lines": [
+        {
+          "text": "SUPREME COURT OF NEW YORK",
+          "page": 1,
+          "line": 1,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Plaintiff: Hudson Valley Development LLC",
+          "page": 1,
+          "line": 2,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Defendant: Mercer Construction Group, Inc.",
+          "page": 1,
+          "line": 3,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "The plaintiff alleges breach of contract arising from renovation services at 18 Morton Street.",
+          "page": 1,
+          "line": 4,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "The parties signed the master services agreement on October 5, 1984.",
+          "page": 1,
+          "line": 5,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay.",
+          "page": 1,
+          "line": 6,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Hudson Valley Development LLC contends that no written delay notice was delivered before the October invoice.",
+          "page": 1,
+          "line": 7,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Invoice no. 4421 sought payment of $185,000 for structural work.",
+          "page": 1,
+          "line": 8,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "[illegible] witness note states \"cracks observed near east retaining wall.\"",
+          "page": 1,
+          "line": 9,
+          "confidence": 0.55,
+          "tier": "LOW",
+          "unclear_marker": true
+        }
+      ],
+      "structured_fields": {
+        "dates": [
+          "October 5, 1984"
+        ],
+        "parties": [
+          "Hudson Valley Development LLC",
+          "Mercer Construction Group",
+          "Mercer Construction Group, Inc"
+        ],
+        "sections": [
+          "Section 8"
+        ],
+        "amounts": [
+          "$185,000"
+        ],
+        "allegations": [
+          "The plaintiff alleges breach of contract arising from renovation services at 18 Morton Street.",
+          "Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay.",
+          "Hudson Valley Development LLC contends that no written delay notice was delivered before the October invoice.",
+          "SUPREME COURT OF NEW YORK Plaintiff: Hudson Valley Development LLC Defendant: Mercer Construction Group, Inc. The plaintiff alleges breach of contract arising from renovation services at 18 Morton Street."
+        ],
+        "obligations": [
+          "Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay.",
+          "Hudson Valley Development LLC contends that no written delay notice was delivered before the October invoice."
+        ],
+        "field_counts": {
+          "dates": 1,
+          "parties": 3,
+          "sections": 1,
+          "amounts": 1
+        }
+      },
+      "average_confidence": 0.64,
+      "warnings": [
+        "Partially unclear OCR content detected."
+      ],
+      "skipped_regions": [],
+      "overall_tier": "LOW"
+    },
+    {
+      "source_path": "samples\\case_files\\case_a\\inspection_log.txt",
+      "doc_type": "text",
+      "text": "Inspection Log - 18 Morton Street\nOctober 12, 1984 - water intrusion observed in basement corridor.\nOctober 13, 1984 - east retaining wall hairline cracking recorded.\nContractor representative absent from 9:00 AM walk-through.\nNo updated site report attached to inspection packet.\n\n",
+      "lines": [
+        {
+          "text": "Inspection Log - 18 Morton Street",
+          "page": 1,
+          "line": 1,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "October 12, 1984 - water intrusion observed in basement corridor.",
+          "page": 1,
+          "line": 2,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "October 13, 1984 - east retaining wall hairline cracking recorded.",
+          "page": 1,
+          "line": 3,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Contractor representative absent from 9:00 AM walk-through.",
+          "page": 1,
+          "line": 4,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "No updated site report attached to inspection packet.",
+          "page": 1,
+          "line": 5,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        }
+      ],
+      "structured_fields": {
+        "dates": [
+          "October 12, 1984",
+          "October 13, 1984"
+        ],
+        "parties": [],
+        "sections": [],
+        "amounts": [],
+        "allegations": [],
+        "obligations": [],
+        "field_counts": {
+          "dates": 2,
+          "parties": 0,
+          "sections": 0,
+          "amounts": 0
+        }
+      },
+      "average_confidence": 0.96,
+      "warnings": [],
+      "skipped_regions": [],
+      "overall_tier": "HIGH"
+    },
+    {
+      "source_path": "samples\\case_files\\case_a\\site_notes_handwritten.ocr.txt",
+      "doc_type": "ocr",
+      "text": "Handwritten margin notes:\n10/14/84 spoke w/ J. Ross on missing reports.\nOwner says contractor promised cure by 10/20/84.\nunclear whether Section 11 insurance cert was ever sent.\nNeed original inspection photos; current scan too dark.\n\n",
+      "lines": [
+        {
+          "text": "Handwritten margin notes:",
+          "page": 1,
+          "line": 1,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "10/14/84 spoke w/ J. Ross on missing reports.",
+          "page": 1,
+          "line": 2,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Owner says contractor promised cure by 10/20/84.",
+          "page": 1,
+          "line": 3,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "unclear whether Section 11 insurance cert was ever sent.",
+          "page": 1,
+          "line": 4,
+          "confidence": 0.55,
+          "tier": "LOW",
+          "unclear_marker": true
+        },
+        {
+          "text": "Need original inspection photos; current scan too dark.",
+          "page": 1,
+          "line": 5,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        }
+      ],
+      "structured_fields": {
+        "dates": [
+          "10/14/84",
+          "10/20/84"
+        ],
+        "parties": [],
+        "sections": [
+          "Section 11"
+        ],
+        "amounts": [],
+        "allegations": [],
+        "obligations": [],
+        "field_counts": {
+          "dates": 2,
+          "parties": 0,
+          "sections": 1,
+          "amounts": 0
+        }
+      },
+      "average_confidence": 0.64,
+      "warnings": [
+        "Partially unclear OCR content detected."
+      ],
+      "skipped_regions": [],
+      "overall_tier": "LOW"
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.747,
+    "usable_chunk_ratio": 1.0,
+    "structured_completeness": 0.583,
+    "noisy_document_ratio": 0.0
+  }
+}

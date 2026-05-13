@@ -1,0 +1,7 @@
+{
+  "prefer_formal_dates": true,
+  "require_section_citations": true,
+  "claim_detail_expansion": "medium",
+  "min_evidence_per_section": 1,
+  "include_open_questions": true
+}

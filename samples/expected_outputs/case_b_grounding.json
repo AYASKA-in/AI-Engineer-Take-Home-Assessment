@@ -1,0 +1,651 @@
+{
+  "case_id": "case_b",
+  "documents": [
+    {
+      "source_path": "samples\\case_files\\case_b\\complaint.txt",
+      "doc_type": "text",
+      "text": "Claimant: Fairview Lending Partners\nRespondent: Beacon Title Services\n\nFairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing.\nThe title commitment was issued on March 2, 2021.\nSection 4.2 states the title agent shall identify recorded encumbrances before funding.\nClosing occurred on March 18, 2021 and the disputed payoff amount is $94,500.\nBeacon Title Services disputes causation and points to Schedule B exceptions.\n\n",
+      "lines": [
+        {
+          "text": "Claimant: Fairview Lending Partners",
+          "page": 1,
+          "line": 1,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Respondent: Beacon Title Services",
+          "page": 1,
+          "line": 2,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing.",
+          "page": 1,
+          "line": 3,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "The title commitment was issued on March 2, 2021.",
+          "page": 1,
+          "line": 4,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Section 4.2 states the title agent shall identify recorded encumbrances before funding.",
+          "page": 1,
+          "line": 5,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Closing occurred on March 18, 2021 and the disputed payoff amount is $94,500.",
+          "page": 1,
+          "line": 6,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Beacon Title Services disputes causation and points to Schedule B exceptions.",
+          "page": 1,
+          "line": 7,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        }
+      ],
+      "structured_fields": {
+        "dates": [
+          "March 18, 2021",
+          "March 2, 2021"
+        ],
+        "parties": [
+          "Beacon Title Services",
+          "Beacon Title Services Fairview Lending Partners",
+          "Fairview Lending Partners"
+        ],
+        "sections": [
+          "Section 4.2"
+        ],
+        "amounts": [
+          "$94,500"
+        ],
+        "allegations": [
+          "Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing.",
+          "Claimant: Fairview Lending Partners Respondent: Beacon Title Services Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing."
+        ],
+        "obligations": [
+          "Section 4.2 states the title agent shall identify recorded encumbrances before funding."
+        ],
+        "field_counts": {
+          "dates": 2,
+          "parties": 3,
+          "sections": 1,
+          "amounts": 1
+        }
+      },
+      "average_confidence": 0.96,
+      "warnings": [],
+      "skipped_regions": [],
+      "overall_tier": "HIGH"
+    },
+    {
+      "source_path": "samples\\case_files\\case_b\\email_chain.txt",
+      "doc_type": "text",
+      "text": "Internal summary:\nCounsel requested confirmation whether the lien release dated 03/21/2021 was ever recorded.\nTeam note says no recording receipt has been found in the file.\nPlease compare the title commitment against the final closing binder.\n\n",
+      "lines": [
+        {
+          "text": "Internal summary:",
+          "page": 1,
+          "line": 1,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Counsel requested confirmation whether the lien release dated 03/21/2021 was ever recorded.",
+          "page": 1,
+          "line": 2,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Team note says no recording receipt has been found in the file.",
+          "page": 1,
+          "line": 3,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Please compare the title commitment against the final closing binder.",
+          "page": 1,
+          "line": 4,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        }
+      ],
+      "structured_fields": {
+        "dates": [
+          "03/21/2021"
+        ],
+        "parties": [],
+        "sections": [],
+        "amounts": [],
+        "allegations": [],
+        "obligations": [],
+        "field_counts": {
+          "dates": 1,
+          "parties": 0,
+          "sections": 0,
+          "amounts": 0
+        }
+      },
+      "average_confidence": 0.96,
+      "warnings": [],
+      "skipped_regions": [],
+      "overall_tier": "HIGH"
+    }
+  ],
+  "draft": {
+    "memo_markdown": "# First-Pass Internal Memo: case_b\n\n## Summary\n- This bundle appears to center on a dispute between Beacon Title Services and Beacon Title Services Fairview Lending Partners with allegations tied to fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing. [complaint.txt p1:1-4]\n- Key chronology markers include March 18, 2021, March 2, 2021, which likely frame the initial review timeline. [complaint.txt p1:1-4]\n\n## Matter overview\n- Claimant: Fairview Lending Partners Respondent: Beacon Title Services Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing. The title commitment was issued on March 2, 2021. [complaint.txt p1:1-4]\n\n## Key parties\n- Parties identified in the file include Beacon Title Services, Beacon Title Services Fairview Lending Partners, Fairview Lending Partners. [complaint.txt p1:1-4]\n\n## Timeline\n- Dates repeatedly referenced in the bundle include March 18, 2021, March 2, 2021, March 21, 2021. [complaint.txt p1:1-4]\n\n## Allegations and obligations\n- Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing. The file also ties the issue to Section 4.2 states the title agent shall identify recorded encumbrances before funding. Closing occurred on March 18, 2021 and the disputed payoff amount is $94,500. Beacon Title Services disputes causation and points to Schedule B exceptions. [complaint.txt p1:5-7]\n- Section 4.2 states the title agent shall identify recorded encumbrances before funding. [complaint.txt p1:5-7]\n\n## Open questions\n- Section 4.2 states the title agent shall identify recorded encumbrances before funding. Closing occurred on March 18, 2021 and the disputed payoff amount is $94,500. Beacon Title Services disputes causation and points to Schedule B exceptions. [complaint.txt p1:5-7]\n",
+    "section_evidence": {
+      "Summary": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_b\\complaint.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_b\\complaint.txt",
+            "text": "Claimant: Fairview Lending Partners Respondent: Beacon Title Services Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing. The title commitment was issued on March 2, 2021.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "complaint.txt p1:1-4"
+          },
+          "score": 0.096,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.0,
+          "matched_terms": []
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_b\\complaint.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_b\\complaint.txt",
+            "text": "Section 4.2 states the title agent shall identify recorded encumbrances before funding. Closing occurred on March 18, 2021 and the disputed payoff amount is $94,500. Beacon Title Services disputes causation and points to Schedule B exceptions.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 7,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "complaint.txt p1:5-7"
+          },
+          "score": 0.096,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.0,
+          "matched_terms": []
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_b\\email_chain.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_b\\email_chain.txt",
+            "text": "Internal summary: Counsel requested confirmation whether the lien release dated 03/21/2021 was ever recorded. Team note says no recording receipt has been found in the file. Please compare the title commitment against the final closing binder.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "email_chain.txt p1:1-4"
+          },
+          "score": 0.096,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.0,
+          "matched_terms": []
+        }
+      ],
+      "Matter overview": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_b\\complaint.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_b\\complaint.txt",
+            "text": "Claimant: Fairview Lending Partners Respondent: Beacon Title Services Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing. The title commitment was issued on March 2, 2021.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "complaint.txt p1:1-4"
+          },
+          "score": 0.1827,
+          "lexical_score": 0.125,
+          "semantic_score": 0.0513,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "services"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_b\\complaint.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_b\\complaint.txt",
+            "text": "Section 4.2 states the title agent shall identify recorded encumbrances before funding. Closing occurred on March 18, 2021 and the disputed payoff amount is $94,500. Beacon Title Services disputes causation and points to Schedule B exceptions.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 7,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "complaint.txt p1:5-7"
+          },
+          "score": 0.1738,
+          "lexical_score": 0.125,
+          "semantic_score": 0.0257,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "services"
+          ]
+        }
+      ],
+      "Key parties": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_b\\complaint.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_b\\complaint.txt",
+            "text": "Claimant: Fairview Lending Partners Respondent: Beacon Title Services Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing. The title commitment was issued on March 2, 2021.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "complaint.txt p1:1-4"
+          },
+          "score": 0.2339,
+          "lexical_score": 0.2,
+          "semantic_score": 0.0797,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "claimant",
+            "respondent"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_b\\complaint.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_b\\complaint.txt",
+            "text": "Section 4.2 states the title agent shall identify recorded encumbrances before funding. Closing occurred on March 18, 2021 and the disputed payoff amount is $94,500. Beacon Title Services disputes causation and points to Schedule B exceptions.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 7,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "complaint.txt p1:5-7"
+          },
+          "score": 0.096,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.0,
+          "matched_terms": []
+        }
+      ],
+      "Timeline": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_b\\complaint.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_b\\complaint.txt",
+            "text": "Claimant: Fairview Lending Partners Respondent: Beacon Title Services Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing. The title commitment was issued on March 2, 2021.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "complaint.txt p1:1-4"
+          },
+          "score": 0.156,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.06,
+          "matched_terms": []
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_b\\complaint.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_b\\complaint.txt",
+            "text": "Section 4.2 states the title agent shall identify recorded encumbrances before funding. Closing occurred on March 18, 2021 and the disputed payoff amount is $94,500. Beacon Title Services disputes causation and points to Schedule B exceptions.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 7,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "complaint.txt p1:5-7"
+          },
+          "score": 0.156,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.06,
+          "matched_terms": []
+        }
+      ],
+      "Allegations and obligations": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_b\\complaint.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_b\\complaint.txt",
+            "text": "Section 4.2 states the title agent shall identify recorded encumbrances before funding. Closing occurred on March 18, 2021 and the disputed payoff amount is $94,500. Beacon Title Services disputes causation and points to Schedule B exceptions.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 7,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "complaint.txt p1:5-7"
+          },
+          "score": 0.3289,
+          "lexical_score": 0.2222,
+          "semantic_score": 0.0877,
+          "rerank_score": 0.08,
+          "matched_terms": [
+            "section",
+            "shall"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_b\\complaint.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_b\\complaint.txt",
+            "text": "Claimant: Fairview Lending Partners Respondent: Beacon Title Services Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing. The title commitment was issued on March 2, 2021.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "complaint.txt p1:1-4"
+          },
+          "score": 0.1724,
+          "lexical_score": 0.1111,
+          "semantic_score": 0.0437,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "failed"
+          ]
+        }
+      ],
+      "Open questions": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_b\\complaint.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_b\\complaint.txt",
+            "text": "Section 4.2 states the title agent shall identify recorded encumbrances before funding. Closing occurred on March 18, 2021 and the disputed payoff amount is $94,500. Beacon Title Services disputes causation and points to Schedule B exceptions.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 7,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "complaint.txt p1:5-7"
+          },
+          "score": 0.1801,
+          "lexical_score": 0.125,
+          "semantic_score": 0.0439,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "disputed"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_b\\complaint.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_b\\complaint.txt",
+            "text": "Claimant: Fairview Lending Partners Respondent: Beacon Title Services Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing. The title commitment was issued on March 2, 2021.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "complaint.txt p1:1-4"
+          },
+          "score": 0.096,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.0,
+          "matched_terms": []
+        }
+      ]
+    },
+    "metrics": {
+      "substantive_lines": 8,
+      "cited_lines": 8,
+      "evidence_coverage": 1.0,
+      "unsupported_claims": 0,
+      "unclear_claims": 0
+    },
+    "section_grounding": [
+      {
+        "section_name": "Matter overview",
+        "status": "GROUNDED",
+        "evidence_count": 2,
+        "top_score": 0.1827,
+        "avg_confidence": 0.96,
+        "reason": ""
+      },
+      {
+        "section_name": "Key parties",
+        "status": "GROUNDED",
+        "evidence_count": 1,
+        "top_score": 0.2339,
+        "avg_confidence": 0.96,
+        "reason": ""
+      },
+      {
+        "section_name": "Timeline",
+        "status": "GROUNDED",
+        "evidence_count": 2,
+        "top_score": 0.156,
+        "avg_confidence": 0.96,
+        "reason": ""
+      },
+      {
+        "section_name": "Allegations and obligations",
+        "status": "GROUNDED",
+        "evidence_count": 2,
+        "top_score": 0.3289,
+        "avg_confidence": 0.96,
+        "reason": ""
+      },
+      {
+        "section_name": "Open questions",
+        "status": "GROUNDED",
+        "evidence_count": 1,
+        "top_score": 0.1801,
+        "avg_confidence": 0.96,
+        "reason": ""
+      }
+    ],
+    "overall_grounding_status": "GROUNDED",
+    "extraction_warnings": []
+  },
+  "support_map": {
+    "Summary": [
+      {
+        "citation": "complaint.txt p1:1-4",
+        "text": "Claimant: Fairview Lending Partners Respondent: Beacon Title Services Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing. The title commitment was issued on March 2, 2021.",
+        "score": 0.096,
+        "confidence": 0.96
+      },
+      {
+        "citation": "complaint.txt p1:5-7",
+        "text": "Section 4.2 states the title agent shall identify recorded encumbrances before funding. Closing occurred on March 18, 2021 and the disputed payoff amount is $94,500. Beacon Title Services disputes causation and points to Schedule B exceptions.",
+        "score": 0.096,
+        "confidence": 0.96
+      },
+      {
+        "citation": "email_chain.txt p1:1-4",
+        "text": "Internal summary: Counsel requested confirmation whether the lien release dated 03/21/2021 was ever recorded. Team note says no recording receipt has been found in the file. Please compare the title commitment against the final closing binder.",
+        "score": 0.096,
+        "confidence": 0.96
+      }
+    ],
+    "Matter overview": [
+      {
+        "citation": "complaint.txt p1:1-4",
+        "text": "Claimant: Fairview Lending Partners Respondent: Beacon Title Services Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing. The title commitment was issued on March 2, 2021.",
+        "score": 0.1827,
+        "confidence": 0.96
+      },
+      {
+        "citation": "complaint.txt p1:5-7",
+        "text": "Section 4.2 states the title agent shall identify recorded encumbrances before funding. Closing occurred on March 18, 2021 and the disputed payoff amount is $94,500. Beacon Title Services disputes causation and points to Schedule B exceptions.",
+        "score": 0.1738,
+        "confidence": 0.96
+      }
+    ],
+    "Key parties": [
+      {
+        "citation": "complaint.txt p1:1-4",
+        "text": "Claimant: Fairview Lending Partners Respondent: Beacon Title Services Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing. The title commitment was issued on March 2, 2021.",
+        "score": 0.2339,
+        "confidence": 0.96
+      },
+      {
+        "citation": "complaint.txt p1:5-7",
+        "text": "Section 4.2 states the title agent shall identify recorded encumbrances before funding. Closing occurred on March 18, 2021 and the disputed payoff amount is $94,500. Beacon Title Services disputes causation and points to Schedule B exceptions.",
+        "score": 0.096,
+        "confidence": 0.96
+      }
+    ],
+    "Timeline": [
+      {
+        "citation": "complaint.txt p1:1-4",
+        "text": "Claimant: Fairview Lending Partners Respondent: Beacon Title Services Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing. The title commitment was issued on March 2, 2021.",
+        "score": 0.156,
+        "confidence": 0.96
+      },
+      {
+        "citation": "complaint.txt p1:5-7",
+        "text": "Section 4.2 states the title agent shall identify recorded encumbrances before funding. Closing occurred on March 18, 2021 and the disputed payoff amount is $94,500. Beacon Title Services disputes causation and points to Schedule B exceptions.",
+        "score": 0.156,
+        "confidence": 0.96
+      }
+    ],
+    "Allegations and obligations": [
+      {
+        "citation": "complaint.txt p1:5-7",
+        "text": "Section 4.2 states the title agent shall identify recorded encumbrances before funding. Closing occurred on March 18, 2021 and the disputed payoff amount is $94,500. Beacon Title Services disputes causation and points to Schedule B exceptions.",
+        "score": 0.3289,
+        "confidence": 0.96
+      },
+      {
+        "citation": "complaint.txt p1:1-4",
+        "text": "Claimant: Fairview Lending Partners Respondent: Beacon Title Services Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing. The title commitment was issued on March 2, 2021.",
+        "score": 0.1724,
+        "confidence": 0.96
+      }
+    ],
+    "Open questions": [
+      {
+        "citation": "complaint.txt p1:5-7",
+        "text": "Section 4.2 states the title agent shall identify recorded encumbrances before funding. Closing occurred on March 18, 2021 and the disputed payoff amount is $94,500. Beacon Title Services disputes causation and points to Schedule B exceptions.",
+        "score": 0.1801,
+        "confidence": 0.96
+      },
+      {
+        "citation": "complaint.txt p1:1-4",
+        "text": "Claimant: Fairview Lending Partners Respondent: Beacon Title Services Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing. The title commitment was issued on March 2, 2021.",
+        "score": 0.096,
+        "confidence": 0.96
+      }
+    ]
+  },
+  "section_grounding": [
+    {
+      "section_name": "Matter overview",
+      "status": "GROUNDED",
+      "evidence_count": 2,
+      "top_score": 0.1827,
+      "avg_confidence": 0.96,
+      "reason": ""
+    },
+    {
+      "section_name": "Key parties",
+      "status": "GROUNDED",
+      "evidence_count": 1,
+      "top_score": 0.2339,
+      "avg_confidence": 0.96,
+      "reason": ""
+    },
+    {
+      "section_name": "Timeline",
+      "status": "GROUNDED",
+      "evidence_count": 2,
+      "top_score": 0.156,
+      "avg_confidence": 0.96,
+      "reason": ""
+    },
+    {
+      "section_name": "Allegations and obligations",
+      "status": "GROUNDED",
+      "evidence_count": 2,
+      "top_score": 0.3289,
+      "avg_confidence": 0.96,
+      "reason": ""
+    },
+    {
+      "section_name": "Open questions",
+      "status": "GROUNDED",
+      "evidence_count": 1,
+      "top_score": 0.1801,
+      "avg_confidence": 0.96,
+      "reason": ""
+    }
+  ],
+  "overall_grounding_status": "GROUNDED"
+}

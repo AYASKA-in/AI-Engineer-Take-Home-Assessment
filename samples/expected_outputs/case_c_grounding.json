@@ -1,0 +1,662 @@
+{
+  "case_id": "case_c",
+  "documents": [
+    {
+      "source_path": "samples\\case_files\\case_c\\addendum.txt",
+      "doc_type": "text",
+      "text": "Addendum A\nClosing target was July 26, 2019.\nIf estoppel certificates remain outstanding, buyer may extend closing by five business days.\nNo final extension notice appears in the provided bundle.\n\n",
+      "lines": [
+        {
+          "text": "Addendum A",
+          "page": 1,
+          "line": 1,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Closing target was July 26, 2019.",
+          "page": 1,
+          "line": 2,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "If estoppel certificates remain outstanding, buyer may extend closing by five business days.",
+          "page": 1,
+          "line": 3,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "No final extension notice appears in the provided bundle.",
+          "page": 1,
+          "line": 4,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        }
+      ],
+      "structured_fields": {
+        "dates": [
+          "July 26, 2019"
+        ],
+        "parties": [],
+        "sections": [],
+        "amounts": [],
+        "allegations": [
+          "No final extension notice appears in the provided bundle."
+        ],
+        "obligations": [],
+        "field_counts": {
+          "dates": 1,
+          "parties": 0,
+          "sections": 0,
+          "amounts": 0
+        }
+      },
+      "average_confidence": 0.96,
+      "warnings": [],
+      "skipped_regions": [],
+      "overall_tier": "HIGH"
+    },
+    {
+      "source_path": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt",
+      "doc_type": "ocr",
+      "text": "Buyer: North Shore Retail LLC\nSeller: Halpern Family Holdings\n\nAsset purchase agreement signed 7/07/2019.\nSection 5.1 requires delivery of all tenant estoppel certificates before closing.\nRedacted schedule lists three tenants with missing initials.\nBuyer notice dated July 19, 2019 asserts estoppel package was incomplete.\nSeller response says two tenants were non-responsive and one certificate was \"forthcoming.\"\n\n",
+      "lines": [
+        {
+          "text": "Buyer: North Shore Retail LLC",
+          "page": 1,
+          "line": 1,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Seller: Halpern Family Holdings",
+          "page": 1,
+          "line": 2,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Asset purchase agreement signed 7/07/2019.",
+          "page": 1,
+          "line": 3,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Section 5.1 requires delivery of all tenant estoppel certificates before closing.",
+          "page": 1,
+          "line": 4,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Redacted schedule lists three tenants with missing initials.",
+          "page": 1,
+          "line": 5,
+          "confidence": 0.55,
+          "tier": "LOW",
+          "unclear_marker": true
+        },
+        {
+          "text": "Buyer notice dated July 19, 2019 asserts estoppel package was incomplete.",
+          "page": 1,
+          "line": 6,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Seller response says two tenants were non-responsive and one certificate was \"forthcoming.\"",
+          "page": 1,
+          "line": 7,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        }
+      ],
+      "structured_fields": {
+        "dates": [
+          "7/07/2019",
+          "July 19, 2019"
+        ],
+        "parties": [
+          "Halpern Family Holdings",
+          "North Shore Retail LLC"
+        ],
+        "sections": [
+          "Section 5.1"
+        ],
+        "amounts": [],
+        "allegations": [
+          "Buyer notice dated July 19, 2019 asserts estoppel package was incomplete."
+        ],
+        "obligations": [
+          "Section 5.1 requires delivery of all tenant estoppel certificates before closing."
+        ],
+        "field_counts": {
+          "dates": 2,
+          "parties": 2,
+          "sections": 1,
+          "amounts": 0
+        }
+      },
+      "average_confidence": 0.64,
+      "warnings": [
+        "Partially unclear OCR content detected."
+      ],
+      "skipped_regions": [],
+      "overall_tier": "LOW"
+    }
+  ],
+  "draft": {
+    "memo_markdown": "# First-Pass Internal Memo: case_c\n\n## Summary\n- This bundle appears to center on a dispute between Halpern Family Holdings and North Shore Retail LLC with allegations tied to no final extension notice appears in the provided bundle. [mixed_bundle_scan.ocr.txt p1:5-7]\n- Key chronology markers include July 26, 2019, July 7, 2019, which likely frame the initial review timeline. [mixed_bundle_scan.ocr.txt p1:5-7]\n- The source set contains ambiguity signals that warrant manual review before relying on any final legal conclusion. [mixed_bundle_scan.ocr.txt p1:5-7]\n\n## Matter overview\n- Addendum A Closing target was July 26, 2019. If estoppel certificates remain outstanding, buyer may extend closing by five business days. No final extension notice appears in the provided bundle. [addendum.txt p1:1-4]\n\n## Key parties\n- Parties identified in the file include Halpern Family Holdings, North Shore Retail LLC. [mixed_bundle_scan.ocr.txt p1:1-4]\n\n## Timeline\n- Dates repeatedly referenced in the bundle include July 26, 2019, July 7, 2019, July 19, 2019. [addendum.txt p1:1-4]\n\n## Allegations and obligations\n- No final extension notice appears in the provided bundle. The file also ties the issue to Buyer: North Shore Retail LLC Seller: Halpern Family Holdings Asset purchase agreement signed 7/07/2019. Section 5.1 requires delivery of all tenant estoppel certificates before closing. [mixed_bundle_scan.ocr.txt p1:1-4]\n- Section 5.1 requires delivery of all tenant estoppel certificates before closing. [mixed_bundle_scan.ocr.txt p1:1-4]\n\n## Open questions\n- Redacted schedule lists three tenants with missing initials. Buyer notice dated July 19, 2019 asserts estoppel package was incomplete. Seller response says two tenants were non-responsive and one certificate was \"forthcoming.\" [mixed_bundle_scan.ocr.txt p1:5-7]\n",
+    "section_evidence": {
+      "Summary": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt",
+            "text": "Redacted schedule lists three tenants with missing initials. Buyer notice dated July 19, 2019 asserts estoppel package was incomplete. Seller response says two tenants were non-responsive and one certificate was \"forthcoming.\"",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 7,
+            "confidence": 0.6766666666666667,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "mixed_bundle_scan.ocr.txt p1:5-7"
+          },
+          "score": 0.1372,
+          "lexical_score": 0.1,
+          "semantic_score": 0.0415,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "missing"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_c\\addendum.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_c\\addendum.txt",
+            "text": "Addendum A Closing target was July 26, 2019. If estoppel certificates remain outstanding, buyer may extend closing by five business days. No final extension notice appears in the provided bundle.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "addendum.txt p1:1-4"
+          },
+          "score": 0.096,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.0,
+          "matched_terms": []
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt",
+            "text": "Buyer: North Shore Retail LLC Seller: Halpern Family Holdings Asset purchase agreement signed 7/07/2019. Section 5.1 requires delivery of all tenant estoppel certificates before closing.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.74,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "mixed_bundle_scan.ocr.txt p1:1-4"
+          },
+          "score": 0.074,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.0,
+          "matched_terms": []
+        }
+      ],
+      "Matter overview": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_c\\addendum.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_c\\addendum.txt",
+            "text": "Addendum A Closing target was July 26, 2019. If estoppel certificates remain outstanding, buyer may extend closing by five business days. No final extension notice appears in the provided bundle.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "addendum.txt p1:1-4"
+          },
+          "score": 0.175,
+          "lexical_score": 0.125,
+          "semantic_score": 0.0292,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "notice"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt",
+            "text": "Buyer: North Shore Retail LLC Seller: Halpern Family Holdings Asset purchase agreement signed 7/07/2019. Section 5.1 requires delivery of all tenant estoppel certificates before closing.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.74,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "mixed_bundle_scan.ocr.txt p1:1-4"
+          },
+          "score": 0.1627,
+          "lexical_score": 0.125,
+          "semantic_score": 0.0569,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "agreement"
+          ]
+        }
+      ],
+      "Key parties": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt",
+            "text": "Buyer: North Shore Retail LLC Seller: Halpern Family Holdings Asset purchase agreement signed 7/07/2019. Section 5.1 requires delivery of all tenant estoppel certificates before closing.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.74,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "mixed_bundle_scan.ocr.txt p1:1-4"
+          },
+          "score": 0.2006,
+          "lexical_score": 0.2,
+          "semantic_score": 0.0473,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "buyer",
+            "seller"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt",
+            "text": "Redacted schedule lists three tenants with missing initials. Buyer notice dated July 19, 2019 asserts estoppel package was incomplete. Seller response says two tenants were non-responsive and one certificate was \"forthcoming.\"",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 7,
+            "confidence": 0.6766666666666667,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "mixed_bundle_scan.ocr.txt p1:5-7"
+          },
+          "score": 0.1919,
+          "lexical_score": 0.2,
+          "semantic_score": 0.0408,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "buyer",
+            "seller"
+          ]
+        }
+      ],
+      "Timeline": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_c\\addendum.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_c\\addendum.txt",
+            "text": "Addendum A Closing target was July 26, 2019. If estoppel certificates remain outstanding, buyer may extend closing by five business days. No final extension notice appears in the provided bundle.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "addendum.txt p1:1-4"
+          },
+          "score": 0.2456,
+          "lexical_score": 0.1429,
+          "semantic_score": 0.0317,
+          "rerank_score": 0.06,
+          "matched_terms": [
+            "notice"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt",
+            "text": "Buyer: North Shore Retail LLC Seller: Halpern Family Holdings Asset purchase agreement signed 7/07/2019. Section 5.1 requires delivery of all tenant estoppel certificates before closing.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.74,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "mixed_bundle_scan.ocr.txt p1:1-4"
+          },
+          "score": 0.2342,
+          "lexical_score": 0.1429,
+          "semantic_score": 0.0617,
+          "rerank_score": 0.06,
+          "matched_terms": [
+            "signed"
+          ]
+        }
+      ],
+      "Allegations and obligations": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt",
+            "text": "Buyer: North Shore Retail LLC Seller: Halpern Family Holdings Asset purchase agreement signed 7/07/2019. Section 5.1 requires delivery of all tenant estoppel certificates before closing.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.74,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "mixed_bundle_scan.ocr.txt p1:1-4"
+          },
+          "score": 0.2337,
+          "lexical_score": 0.1111,
+          "semantic_score": 0.0532,
+          "rerank_score": 0.08,
+          "matched_terms": [
+            "section"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_c\\addendum.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_c\\addendum.txt",
+            "text": "Addendum A Closing target was July 26, 2019. If estoppel certificates remain outstanding, buyer may extend closing by five business days. No final extension notice appears in the provided bundle.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "addendum.txt p1:1-4"
+          },
+          "score": 0.1667,
+          "lexical_score": 0.1111,
+          "semantic_score": 0.0273,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "notice"
+          ]
+        }
+      ],
+      "Open questions": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_c\\mixed_bundle_scan.ocr.txt",
+            "text": "Redacted schedule lists three tenants with missing initials. Buyer notice dated July 19, 2019 asserts estoppel package was incomplete. Seller response says two tenants were non-responsive and one certificate was \"forthcoming.\"",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 7,
+            "confidence": 0.6766666666666667,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "mixed_bundle_scan.ocr.txt p1:5-7"
+          },
+          "score": 0.2403,
+          "lexical_score": 0.25,
+          "semantic_score": 0.1003,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "missing",
+            "redacted"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_c\\addendum.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_c\\addendum.txt",
+            "text": "Addendum A Closing target was July 26, 2019. If estoppel certificates remain outstanding, buyer may extend closing by five business days. No final extension notice appears in the provided bundle.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "addendum.txt p1:1-4"
+          },
+          "score": 0.1828,
+          "lexical_score": 0.125,
+          "semantic_score": 0.0516,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "provided"
+          ]
+        }
+      ]
+    },
+    "metrics": {
+      "substantive_lines": 9,
+      "cited_lines": 9,
+      "evidence_coverage": 1.0,
+      "unsupported_claims": 0,
+      "unclear_claims": 0
+    },
+    "section_grounding": [
+      {
+        "section_name": "Matter overview",
+        "status": "GROUNDED",
+        "evidence_count": 2,
+        "top_score": 0.175,
+        "avg_confidence": 0.85,
+        "reason": ""
+      },
+      {
+        "section_name": "Key parties",
+        "status": "GROUNDED",
+        "evidence_count": 2,
+        "top_score": 0.2006,
+        "avg_confidence": 0.708,
+        "reason": ""
+      },
+      {
+        "section_name": "Timeline",
+        "status": "GROUNDED",
+        "evidence_count": 2,
+        "top_score": 0.2456,
+        "avg_confidence": 0.85,
+        "reason": ""
+      },
+      {
+        "section_name": "Allegations and obligations",
+        "status": "GROUNDED",
+        "evidence_count": 2,
+        "top_score": 0.2337,
+        "avg_confidence": 0.85,
+        "reason": ""
+      },
+      {
+        "section_name": "Open questions",
+        "status": "GROUNDED",
+        "evidence_count": 2,
+        "top_score": 0.2403,
+        "avg_confidence": 0.818,
+        "reason": ""
+      }
+    ],
+    "overall_grounding_status": "GROUNDED",
+    "extraction_warnings": []
+  },
+  "support_map": {
+    "Summary": [
+      {
+        "citation": "mixed_bundle_scan.ocr.txt p1:5-7",
+        "text": "Redacted schedule lists three tenants with missing initials. Buyer notice dated July 19, 2019 asserts estoppel package was incomplete. Seller response says two tenants were non-responsive and one certificate was \"forthcoming.\"",
+        "score": 0.1372,
+        "confidence": 0.677
+      },
+      {
+        "citation": "addendum.txt p1:1-4",
+        "text": "Addendum A Closing target was July 26, 2019. If estoppel certificates remain outstanding, buyer may extend closing by five business days. No final extension notice appears in the provided bundle.",
+        "score": 0.096,
+        "confidence": 0.96
+      },
+      {
+        "citation": "mixed_bundle_scan.ocr.txt p1:1-4",
+        "text": "Buyer: North Shore Retail LLC Seller: Halpern Family Holdings Asset purchase agreement signed 7/07/2019. Section 5.1 requires delivery of all tenant estoppel certificates before closing.",
+        "score": 0.074,
+        "confidence": 0.74
+      }
+    ],
+    "Matter overview": [
+      {
+        "citation": "addendum.txt p1:1-4",
+        "text": "Addendum A Closing target was July 26, 2019. If estoppel certificates remain outstanding, buyer may extend closing by five business days. No final extension notice appears in the provided bundle.",
+        "score": 0.175,
+        "confidence": 0.96
+      },
+      {
+        "citation": "mixed_bundle_scan.ocr.txt p1:1-4",
+        "text": "Buyer: North Shore Retail LLC Seller: Halpern Family Holdings Asset purchase agreement signed 7/07/2019. Section 5.1 requires delivery of all tenant estoppel certificates before closing.",
+        "score": 0.1627,
+        "confidence": 0.74
+      }
+    ],
+    "Key parties": [
+      {
+        "citation": "mixed_bundle_scan.ocr.txt p1:1-4",
+        "text": "Buyer: North Shore Retail LLC Seller: Halpern Family Holdings Asset purchase agreement signed 7/07/2019. Section 5.1 requires delivery of all tenant estoppel certificates before closing.",
+        "score": 0.2006,
+        "confidence": 0.74
+      },
+      {
+        "citation": "mixed_bundle_scan.ocr.txt p1:5-7",
+        "text": "Redacted schedule lists three tenants with missing initials. Buyer notice dated July 19, 2019 asserts estoppel package was incomplete. Seller response says two tenants were non-responsive and one certificate was \"forthcoming.\"",
+        "score": 0.1919,
+        "confidence": 0.677
+      }
+    ],
+    "Timeline": [
+      {
+        "citation": "addendum.txt p1:1-4",
+        "text": "Addendum A Closing target was July 26, 2019. If estoppel certificates remain outstanding, buyer may extend closing by five business days. No final extension notice appears in the provided bundle.",
+        "score": 0.2456,
+        "confidence": 0.96
+      },
+      {
+        "citation": "mixed_bundle_scan.ocr.txt p1:1-4",
+        "text": "Buyer: North Shore Retail LLC Seller: Halpern Family Holdings Asset purchase agreement signed 7/07/2019. Section 5.1 requires delivery of all tenant estoppel certificates before closing.",
+        "score": 0.2342,
+        "confidence": 0.74
+      }
+    ],
+    "Allegations and obligations": [
+      {
+        "citation": "mixed_bundle_scan.ocr.txt p1:1-4",
+        "text": "Buyer: North Shore Retail LLC Seller: Halpern Family Holdings Asset purchase agreement signed 7/07/2019. Section 5.1 requires delivery of all tenant estoppel certificates before closing.",
+        "score": 0.2337,
+        "confidence": 0.74
+      },
+      {
+        "citation": "addendum.txt p1:1-4",
+        "text": "Addendum A Closing target was July 26, 2019. If estoppel certificates remain outstanding, buyer may extend closing by five business days. No final extension notice appears in the provided bundle.",
+        "score": 0.1667,
+        "confidence": 0.96
+      }
+    ],
+    "Open questions": [
+      {
+        "citation": "mixed_bundle_scan.ocr.txt p1:5-7",
+        "text": "Redacted schedule lists three tenants with missing initials. Buyer notice dated July 19, 2019 asserts estoppel package was incomplete. Seller response says two tenants were non-responsive and one certificate was \"forthcoming.\"",
+        "score": 0.2403,
+        "confidence": 0.677
+      },
+      {
+        "citation": "addendum.txt p1:1-4",
+        "text": "Addendum A Closing target was July 26, 2019. If estoppel certificates remain outstanding, buyer may extend closing by five business days. No final extension notice appears in the provided bundle.",
+        "score": 0.1828,
+        "confidence": 0.96
+      }
+    ]
+  },
+  "section_grounding": [
+    {
+      "section_name": "Matter overview",
+      "status": "GROUNDED",
+      "evidence_count": 2,
+      "top_score": 0.175,
+      "avg_confidence": 0.85,
+      "reason": ""
+    },
+    {
+      "section_name": "Key parties",
+      "status": "GROUNDED",
+      "evidence_count": 2,
+      "top_score": 0.2006,
+      "avg_confidence": 0.708,
+      "reason": ""
+    },
+    {
+      "section_name": "Timeline",
+      "status": "GROUNDED",
+      "evidence_count": 2,
+      "top_score": 0.2456,
+      "avg_confidence": 0.85,
+      "reason": ""
+    },
+    {
+      "section_name": "Allegations and obligations",
+      "status": "GROUNDED",
+      "evidence_count": 2,
+      "top_score": 0.2337,
+      "avg_confidence": 0.85,
+      "reason": ""
+    },
+    {
+      "section_name": "Open questions",
+      "status": "GROUNDED",
+      "evidence_count": 2,
+      "top_score": 0.2403,
+      "avg_confidence": 0.818,
+      "reason": ""
+    }
+  ],
+  "overall_grounding_status": "GROUNDED"
+}

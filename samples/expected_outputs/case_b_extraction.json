@@ -1,0 +1,166 @@
+{
+  "documents": [
+    {
+      "source_path": "samples\\case_files\\case_b\\complaint.txt",
+      "doc_type": "text",
+      "text": "Claimant: Fairview Lending Partners\nRespondent: Beacon Title Services\n\nFairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing.\nThe title commitment was issued on March 2, 2021.\nSection 4.2 states the title agent shall identify recorded encumbrances before funding.\nClosing occurred on March 18, 2021 and the disputed payoff amount is $94,500.\nBeacon Title Services disputes causation and points to Schedule B exceptions.\n\n",
+      "lines": [
+        {
+          "text": "Claimant: Fairview Lending Partners",
+          "page": 1,
+          "line": 1,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Respondent: Beacon Title Services",
+          "page": 1,
+          "line": 2,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing.",
+          "page": 1,
+          "line": 3,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "The title commitment was issued on March 2, 2021.",
+          "page": 1,
+          "line": 4,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Section 4.2 states the title agent shall identify recorded encumbrances before funding.",
+          "page": 1,
+          "line": 5,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Closing occurred on March 18, 2021 and the disputed payoff amount is $94,500.",
+          "page": 1,
+          "line": 6,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Beacon Title Services disputes causation and points to Schedule B exceptions.",
+          "page": 1,
+          "line": 7,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        }
+      ],
+      "structured_fields": {
+        "dates": [
+          "March 18, 2021",
+          "March 2, 2021"
+        ],
+        "parties": [
+          "Beacon Title Services",
+          "Beacon Title Services Fairview Lending Partners",
+          "Fairview Lending Partners"
+        ],
+        "sections": [
+          "Section 4.2"
+        ],
+        "amounts": [
+          "$94,500"
+        ],
+        "allegations": [
+          "Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing.",
+          "Claimant: Fairview Lending Partners Respondent: Beacon Title Services Fairview Lending Partners alleges Beacon Title Services failed to disclose a prior lien before closing."
+        ],
+        "obligations": [
+          "Section 4.2 states the title agent shall identify recorded encumbrances before funding."
+        ],
+        "field_counts": {
+          "dates": 2,
+          "parties": 3,
+          "sections": 1,
+          "amounts": 1
+        }
+      },
+      "average_confidence": 0.96,
+      "warnings": [],
+      "skipped_regions": [],
+      "overall_tier": "HIGH"
+    },
+    {
+      "source_path": "samples\\case_files\\case_b\\email_chain.txt",
+      "doc_type": "text",
+      "text": "Internal summary:\nCounsel requested confirmation whether the lien release dated 03/21/2021 was ever recorded.\nTeam note says no recording receipt has been found in the file.\nPlease compare the title commitment against the final closing binder.\n\n",
+      "lines": [
+        {
+          "text": "Internal summary:",
+          "page": 1,
+          "line": 1,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Counsel requested confirmation whether the lien release dated 03/21/2021 was ever recorded.",
+          "page": 1,
+          "line": 2,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Team note says no recording receipt has been found in the file.",
+          "page": 1,
+          "line": 3,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Please compare the title commitment against the final closing binder.",
+          "page": 1,
+          "line": 4,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        }
+      ],
+      "structured_fields": {
+        "dates": [
+          "03/21/2021"
+        ],
+        "parties": [],
+        "sections": [],
+        "amounts": [],
+        "allegations": [],
+        "obligations": [],
+        "field_counts": {
+          "dates": 1,
+          "parties": 0,
+          "sections": 0,
+          "amounts": 0
+        }
+      },
+      "average_confidence": 0.96,
+      "warnings": [],
+      "skipped_regions": [],
+      "overall_tier": "HIGH"
+    }
+  ],
+  "metrics": {
+    "average_confidence": 0.96,
+    "usable_chunk_ratio": 1.0,
+    "structured_completeness": 0.625,
+    "noisy_document_ratio": 0.0
+  }
+}

@@ -1,0 +1,831 @@
+{
+  "case_id": "case_a",
+  "documents": [
+    {
+      "source_path": "samples\\case_files\\case_a\\complaint_scan.ocr.txt",
+      "doc_type": "ocr",
+      "text": "SUPREME COURT OF NEW YORK\nPlaintiff: Hudson Valley Development LLC\nDefendant: Mercer Construction Group, Inc.\n\nThe plaintiff alleges breach of contract arising from renovation services at 18 Morton Street.\nThe parties signed the master services agreement on October 5, 1984.\nSection 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay.\nHudson Valley Development LLC contends that no written delay notice was delivered before the October invoice.\nInvoice no. 4421 sought payment of $185,000 for structural work.\n[illegible] witness note states \"cracks observed near east retaining wall.\"\n\n",
+      "lines": [
+        {
+          "text": "SUPREME COURT OF NEW YORK",
+          "page": 1,
+          "line": 1,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Plaintiff: Hudson Valley Development LLC",
+          "page": 1,
+          "line": 2,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Defendant: Mercer Construction Group, Inc.",
+          "page": 1,
+          "line": 3,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "The plaintiff alleges breach of contract arising from renovation services at 18 Morton Street.",
+          "page": 1,
+          "line": 4,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "The parties signed the master services agreement on October 5, 1984.",
+          "page": 1,
+          "line": 5,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay.",
+          "page": 1,
+          "line": 6,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Hudson Valley Development LLC contends that no written delay notice was delivered before the October invoice.",
+          "page": 1,
+          "line": 7,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Invoice no. 4421 sought payment of $185,000 for structural work.",
+          "page": 1,
+          "line": 8,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "[illegible] witness note states \"cracks observed near east retaining wall.\"",
+          "page": 1,
+          "line": 9,
+          "confidence": 0.55,
+          "tier": "LOW",
+          "unclear_marker": true
+        }
+      ],
+      "structured_fields": {
+        "dates": [
+          "October 5, 1984"
+        ],
+        "parties": [
+          "Hudson Valley Development LLC",
+          "Mercer Construction Group",
+          "Mercer Construction Group, Inc"
+        ],
+        "sections": [
+          "Section 8"
+        ],
+        "amounts": [
+          "$185,000"
+        ],
+        "allegations": [
+          "The plaintiff alleges breach of contract arising from renovation services at 18 Morton Street.",
+          "Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay.",
+          "Hudson Valley Development LLC contends that no written delay notice was delivered before the October invoice.",
+          "SUPREME COURT OF NEW YORK Plaintiff: Hudson Valley Development LLC Defendant: Mercer Construction Group, Inc. The plaintiff alleges breach of contract arising from renovation services at 18 Morton Street."
+        ],
+        "obligations": [
+          "Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay.",
+          "Hudson Valley Development LLC contends that no written delay notice was delivered before the October invoice."
+        ],
+        "field_counts": {
+          "dates": 1,
+          "parties": 3,
+          "sections": 1,
+          "amounts": 1
+        }
+      },
+      "average_confidence": 0.64,
+      "warnings": [
+        "Partially unclear OCR content detected."
+      ],
+      "skipped_regions": [],
+      "overall_tier": "LOW"
+    },
+    {
+      "source_path": "samples\\case_files\\case_a\\inspection_log.txt",
+      "doc_type": "text",
+      "text": "Inspection Log - 18 Morton Street\nOctober 12, 1984 - water intrusion observed in basement corridor.\nOctober 13, 1984 - east retaining wall hairline cracking recorded.\nContractor representative absent from 9:00 AM walk-through.\nNo updated site report attached to inspection packet.\n\n",
+      "lines": [
+        {
+          "text": "Inspection Log - 18 Morton Street",
+          "page": 1,
+          "line": 1,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "October 12, 1984 - water intrusion observed in basement corridor.",
+          "page": 1,
+          "line": 2,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "October 13, 1984 - east retaining wall hairline cracking recorded.",
+          "page": 1,
+          "line": 3,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "Contractor representative absent from 9:00 AM walk-through.",
+          "page": 1,
+          "line": 4,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        },
+        {
+          "text": "No updated site report attached to inspection packet.",
+          "page": 1,
+          "line": 5,
+          "confidence": 0.96,
+          "tier": "HIGH",
+          "unclear_marker": false
+        }
+      ],
+      "structured_fields": {
+        "dates": [
+          "October 12, 1984",
+          "October 13, 1984"
+        ],
+        "parties": [],
+        "sections": [],
+        "amounts": [],
+        "allegations": [],
+        "obligations": [],
+        "field_counts": {
+          "dates": 2,
+          "parties": 0,
+          "sections": 0,
+          "amounts": 0
+        }
+      },
+      "average_confidence": 0.96,
+      "warnings": [],
+      "skipped_regions": [],
+      "overall_tier": "HIGH"
+    },
+    {
+      "source_path": "samples\\case_files\\case_a\\site_notes_handwritten.ocr.txt",
+      "doc_type": "ocr",
+      "text": "Handwritten margin notes:\n10/14/84 spoke w/ J. Ross on missing reports.\nOwner says contractor promised cure by 10/20/84.\nunclear whether Section 11 insurance cert was ever sent.\nNeed original inspection photos; current scan too dark.\n\n",
+      "lines": [
+        {
+          "text": "Handwritten margin notes:",
+          "page": 1,
+          "line": 1,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "10/14/84 spoke w/ J. Ross on missing reports.",
+          "page": 1,
+          "line": 2,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "Owner says contractor promised cure by 10/20/84.",
+          "page": 1,
+          "line": 3,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        },
+        {
+          "text": "unclear whether Section 11 insurance cert was ever sent.",
+          "page": 1,
+          "line": 4,
+          "confidence": 0.55,
+          "tier": "LOW",
+          "unclear_marker": true
+        },
+        {
+          "text": "Need original inspection photos; current scan too dark.",
+          "page": 1,
+          "line": 5,
+          "confidence": 0.74,
+          "tier": "MEDIUM",
+          "unclear_marker": false
+        }
+      ],
+      "structured_fields": {
+        "dates": [
+          "10/14/84",
+          "10/20/84"
+        ],
+        "parties": [],
+        "sections": [
+          "Section 11"
+        ],
+        "amounts": [],
+        "allegations": [],
+        "obligations": [],
+        "field_counts": {
+          "dates": 2,
+          "parties": 0,
+          "sections": 1,
+          "amounts": 0
+        }
+      },
+      "average_confidence": 0.64,
+      "warnings": [
+        "Partially unclear OCR content detected."
+      ],
+      "skipped_regions": [],
+      "overall_tier": "LOW"
+    }
+  ],
+  "draft": {
+    "memo_markdown": "# First-Pass Internal Memo: case_a\n\n## Summary\n- This bundle appears to center on a dispute between Hudson Valley Development LLC and Mercer Construction Group with allegations tied to breach of contract arising from renovation services at 18 Morton Street. [complaint_scan.ocr.txt p1:1-4]\n- Key chronology markers include October 5, 1984, October 12, 1984, which likely frame the initial review timeline. [complaint_scan.ocr.txt p1:5-8]\n- The source set contains ambiguity signals that warrant manual review before relying on any final legal conclusion. [site_notes_handwritten.ocr.txt p1:1-4]\n\n## Matter overview\n- The parties signed the master services agreement on October 5, 1984. Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay. Hudson Valley Development LLC contends that no written delay notice was delivered before the October invoice. Invoice no. 4421 sought payment of $185,000 for structural work. [complaint_scan.ocr.txt p1:5-8]\n\n## Key parties\n- Parties identified in the file include Hudson Valley Development LLC, Mercer Construction Group, Mercer Construction Group, Inc. [complaint_scan.ocr.txt p1:1-4]\n\n## Timeline\n- Dates repeatedly referenced in the bundle include October 5, 1984, October 12, 1984, October 13, 1984, October 14, 1984. [complaint_scan.ocr.txt p1:5-8]\n\n## Allegations and obligations\n- The plaintiff alleges breach of contract arising from renovation services at 18 Morton Street. The file also ties the issue to The parties signed the master services agreement on October 5, 1984. Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay. Hudson Valley Development LLC contends that no written delay notice was delivered before the October invoice. Invoice no. 4421 sought payment of $185,000 for structural work. [complaint_scan.ocr.txt p1:5-8]\n- Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay. [complaint_scan.ocr.txt p1:5-8]\n\n## Open questions\n- Handwritten margin notes: 10/14/84 spoke w/ J. Ross on missing reports. Owner says contractor promised cure by 10/20/84. unclear whether Section 11 insurance cert was ever sent. [site_notes_handwritten.ocr.txt p1:1-4]\n",
+    "section_evidence": {
+      "Summary": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_a\\complaint_scan.ocr.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_a\\complaint_scan.ocr.txt",
+            "text": "SUPREME COURT OF NEW YORK Plaintiff: Hudson Valley Development LLC Defendant: Mercer Construction Group, Inc. The plaintiff alleges breach of contract arising from renovation services at 18 Morton Street.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.74,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "complaint_scan.ocr.txt p1:1-4"
+          },
+          "score": 0.2195,
+          "lexical_score": 0.2,
+          "semantic_score": 0.1016,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "breach",
+            "contract"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_a\\site_notes_handwritten.ocr.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_a\\site_notes_handwritten.ocr.txt",
+            "text": "Handwritten margin notes: 10/14/84 spoke w/ J. Ross on missing reports. Owner says contractor promised cure by 10/20/84. unclear whether Section 11 insurance cert was ever sent.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.6924999999999999,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "site_notes_handwritten.ocr.txt p1:1-4"
+          },
+          "score": 0.1427,
+          "lexical_score": 0.1,
+          "semantic_score": 0.0527,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "missing"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_a\\complaint_scan.ocr.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_a\\complaint_scan.ocr.txt",
+            "text": "The parties signed the master services agreement on October 5, 1984. Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay. Hudson Valley Development LLC contends that no written delay notice was delivered before the October invoice. Invoice no. 4421 sought payment of $185,000 for structural work.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 8,
+            "confidence": 0.74,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "complaint_scan.ocr.txt p1:5-8"
+          },
+          "score": 0.1411,
+          "lexical_score": 0.1,
+          "semantic_score": 0.0345,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "parties"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_a\\inspection_log.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_a\\inspection_log.txt",
+            "text": "Inspection Log - 18 Morton Street October 12, 1984 - water intrusion observed in basement corridor. October 13, 1984 - east retaining wall hairline cracking recorded. Contractor representative absent from 9:00 AM walk-through.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "inspection_log.txt p1:1-4"
+          },
+          "score": 0.096,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.0,
+          "matched_terms": []
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_a\\inspection_log.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_a\\inspection_log.txt",
+            "text": "No updated site report attached to inspection packet.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 5,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "inspection_log.txt p1:5-5"
+          },
+          "score": 0.096,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.0,
+          "matched_terms": []
+        }
+      ],
+      "Matter overview": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_a\\complaint_scan.ocr.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_a\\complaint_scan.ocr.txt",
+            "text": "The parties signed the master services agreement on October 5, 1984. Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay. Hudson Valley Development LLC contends that no written delay notice was delivered before the October invoice. Invoice no. 4421 sought payment of $185,000 for structural work.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 8,
+            "confidence": 0.74,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "complaint_scan.ocr.txt p1:5-8"
+          },
+          "score": 0.4195,
+          "lexical_score": 0.5,
+          "semantic_score": 0.2015,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "agreement",
+            "notice",
+            "payment",
+            "services"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_a\\complaint_scan.ocr.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_a\\complaint_scan.ocr.txt",
+            "text": "SUPREME COURT OF NEW YORK Plaintiff: Hudson Valley Development LLC Defendant: Mercer Construction Group, Inc. The plaintiff alleges breach of contract arising from renovation services at 18 Morton Street.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.74,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "complaint_scan.ocr.txt p1:1-4"
+          },
+          "score": 0.3398,
+          "lexical_score": 0.375,
+          "semantic_score": 0.1701,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "breach",
+            "contract",
+            "services"
+          ]
+        }
+      ],
+      "Key parties": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_a\\complaint_scan.ocr.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_a\\complaint_scan.ocr.txt",
+            "text": "SUPREME COURT OF NEW YORK Plaintiff: Hudson Valley Development LLC Defendant: Mercer Construction Group, Inc. The plaintiff alleges breach of contract arising from renovation services at 18 Morton Street.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.74,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "complaint_scan.ocr.txt p1:1-4"
+          },
+          "score": 0.2393,
+          "lexical_score": 0.2,
+          "semantic_score": 0.158,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "defendant",
+            "plaintiff"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_a\\site_notes_handwritten.ocr.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_a\\site_notes_handwritten.ocr.txt",
+            "text": "Handwritten margin notes: 10/14/84 spoke w/ J. Ross on missing reports. Owner says contractor promised cure by 10/20/84. unclear whether Section 11 insurance cert was ever sent.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.6924999999999999,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "site_notes_handwritten.ocr.txt p1:1-4"
+          },
+          "score": 0.2115,
+          "lexical_score": 0.2,
+          "semantic_score": 0.0923,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "contractor",
+            "owner"
+          ]
+        }
+      ],
+      "Timeline": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_a\\complaint_scan.ocr.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_a\\complaint_scan.ocr.txt",
+            "text": "The parties signed the master services agreement on October 5, 1984. Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay. Hudson Valley Development LLC contends that no written delay notice was delivered before the October invoice. Invoice no. 4421 sought payment of $185,000 for structural work.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 8,
+            "confidence": 0.74,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "complaint_scan.ocr.txt p1:5-8"
+          },
+          "score": 0.4317,
+          "lexical_score": 0.4286,
+          "semantic_score": 0.1771,
+          "rerank_score": 0.06,
+          "matched_terms": [
+            "invoice",
+            "notice",
+            "signed"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_a\\inspection_log.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_a\\inspection_log.txt",
+            "text": "Inspection Log - 18 Morton Street October 12, 1984 - water intrusion observed in basement corridor. October 13, 1984 - east retaining wall hairline cracking recorded. Contractor representative absent from 9:00 AM walk-through.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "inspection_log.txt p1:1-4"
+          },
+          "score": 0.2454,
+          "lexical_score": 0.1429,
+          "semantic_score": 0.031,
+          "rerank_score": 0.06,
+          "matched_terms": [
+            "inspection"
+          ]
+        }
+      ],
+      "Allegations and obligations": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_a\\complaint_scan.ocr.txt::chunk-2",
+            "source_path": "samples\\case_files\\case_a\\complaint_scan.ocr.txt",
+            "text": "The parties signed the master services agreement on October 5, 1984. Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay. Hudson Valley Development LLC contends that no written delay notice was delivered before the October invoice. Invoice no. 4421 sought payment of $185,000 for structural work.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 5,
+            "line_end": 8,
+            "confidence": 0.74,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "complaint_scan.ocr.txt p1:5-8"
+          },
+          "score": 0.3854,
+          "lexical_score": 0.3333,
+          "semantic_score": 0.1373,
+          "rerank_score": 0.08,
+          "matched_terms": [
+            "notice",
+            "required",
+            "section"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_a\\site_notes_handwritten.ocr.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_a\\site_notes_handwritten.ocr.txt",
+            "text": "Handwritten margin notes: 10/14/84 spoke w/ J. Ross on missing reports. Owner says contractor promised cure by 10/20/84. unclear whether Section 11 insurance cert was ever sent.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.6924999999999999,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "site_notes_handwritten.ocr.txt p1:1-4"
+          },
+          "score": 0.2241,
+          "lexical_score": 0.1111,
+          "semantic_score": 0.0392,
+          "rerank_score": 0.08,
+          "matched_terms": [
+            "section"
+          ]
+        }
+      ],
+      "Open questions": [
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_a\\site_notes_handwritten.ocr.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_a\\site_notes_handwritten.ocr.txt",
+            "text": "Handwritten margin notes: 10/14/84 spoke w/ J. Ross on missing reports. Owner says contractor promised cure by 10/20/84. unclear whether Section 11 insurance cert was ever sent.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.6924999999999999,
+            "metadata": {
+              "doc_type": "ocr"
+            },
+            "citation": "site_notes_handwritten.ocr.txt p1:1-4"
+          },
+          "score": 0.249,
+          "lexical_score": 0.25,
+          "semantic_score": 0.1207,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "missing",
+            "unclear"
+          ]
+        },
+        {
+          "chunk": {
+            "chunk_id": "samples\\case_files\\case_a\\inspection_log.txt::chunk-1",
+            "source_path": "samples\\case_files\\case_a\\inspection_log.txt",
+            "text": "Inspection Log - 18 Morton Street October 12, 1984 - water intrusion observed in basement corridor. October 13, 1984 - east retaining wall hairline cracking recorded. Contractor representative absent from 9:00 AM walk-through.",
+            "page_start": 1,
+            "page_end": 1,
+            "line_start": 1,
+            "line_end": 4,
+            "confidence": 0.96,
+            "metadata": {
+              "doc_type": "text"
+            },
+            "citation": "inspection_log.txt p1:1-4"
+          },
+          "score": 0.184,
+          "lexical_score": 0.125,
+          "semantic_score": 0.0549,
+          "rerank_score": 0.0,
+          "matched_terms": [
+            "absent"
+          ]
+        }
+      ]
+    },
+    "metrics": {
+      "substantive_lines": 9,
+      "cited_lines": 9,
+      "evidence_coverage": 1.0,
+      "unsupported_claims": 0,
+      "unclear_claims": 0
+    },
+    "section_grounding": [
+      {
+        "section_name": "Matter overview",
+        "status": "GROUNDED",
+        "evidence_count": 2,
+        "top_score": 0.4195,
+        "avg_confidence": 0.74,
+        "reason": ""
+      },
+      {
+        "section_name": "Key parties",
+        "status": "GROUNDED",
+        "evidence_count": 2,
+        "top_score": 0.2393,
+        "avg_confidence": 0.716,
+        "reason": ""
+      },
+      {
+        "section_name": "Timeline",
+        "status": "GROUNDED",
+        "evidence_count": 2,
+        "top_score": 0.4317,
+        "avg_confidence": 0.85,
+        "reason": ""
+      },
+      {
+        "section_name": "Allegations and obligations",
+        "status": "GROUNDED",
+        "evidence_count": 2,
+        "top_score": 0.3854,
+        "avg_confidence": 0.716,
+        "reason": ""
+      },
+      {
+        "section_name": "Open questions",
+        "status": "GROUNDED",
+        "evidence_count": 2,
+        "top_score": 0.249,
+        "avg_confidence": 0.826,
+        "reason": ""
+      }
+    ],
+    "overall_grounding_status": "GROUNDED",
+    "extraction_warnings": []
+  },
+  "support_map": {
+    "Summary": [
+      {
+        "citation": "complaint_scan.ocr.txt p1:1-4",
+        "text": "SUPREME COURT OF NEW YORK Plaintiff: Hudson Valley Development LLC Defendant: Mercer Construction Group, Inc. The plaintiff alleges breach of contract arising from renovation services at 18 Morton Street.",
+        "score": 0.2195,
+        "confidence": 0.74
+      },
+      {
+        "citation": "site_notes_handwritten.ocr.txt p1:1-4",
+        "text": "Handwritten margin notes: 10/14/84 spoke w/ J. Ross on missing reports. Owner says contractor promised cure by 10/20/84. unclear whether Section 11 insurance cert was ever sent.",
+        "score": 0.1427,
+        "confidence": 0.692
+      },
+      {
+        "citation": "complaint_scan.ocr.txt p1:5-8",
+        "text": "The parties signed the master services agreement on October 5, 1984. Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay. Hudson Valley Development LLC contends that no written delay notice was delivered before the October invoice. Invoice no. 4421 sought payment of $185,000 for structural work.",
+        "score": 0.1411,
+        "confidence": 0.74
+      },
+      {
+        "citation": "inspection_log.txt p1:1-4",
+        "text": "Inspection Log - 18 Morton Street October 12, 1984 - water intrusion observed in basement corridor. October 13, 1984 - east retaining wall hairline cracking recorded. Contractor representative absent from 9:00 AM walk-through.",
+        "score": 0.096,
+        "confidence": 0.96
+      },
+      {
+        "citation": "inspection_log.txt p1:5-5",
+        "text": "No updated site report attached to inspection packet.",
+        "score": 0.096,
+        "confidence": 0.96
+      }
+    ],
+    "Matter overview": [
+      {
+        "citation": "complaint_scan.ocr.txt p1:5-8",
+        "text": "The parties signed the master services agreement on October 5, 1984. Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay. Hudson Valley Development LLC contends that no written delay notice was delivered before the October invoice. Invoice no. 4421 sought payment of $185,000 for structural work.",
+        "score": 0.4195,
+        "confidence": 0.74
+      },
+      {
+        "citation": "complaint_scan.ocr.txt p1:1-4",
+        "text": "SUPREME COURT OF NEW YORK Plaintiff: Hudson Valley Development LLC Defendant: Mercer Construction Group, Inc. The plaintiff alleges breach of contract arising from renovation services at 18 Morton Street.",
+        "score": 0.3398,
+        "confidence": 0.74
+      }
+    ],
+    "Key parties": [
+      {
+        "citation": "complaint_scan.ocr.txt p1:1-4",
+        "text": "SUPREME COURT OF NEW YORK Plaintiff: Hudson Valley Development LLC Defendant: Mercer Construction Group, Inc. The plaintiff alleges breach of contract arising from renovation services at 18 Morton Street.",
+        "score": 0.2393,
+        "confidence": 0.74
+      },
+      {
+        "citation": "site_notes_handwritten.ocr.txt p1:1-4",
+        "text": "Handwritten margin notes: 10/14/84 spoke w/ J. Ross on missing reports. Owner says contractor promised cure by 10/20/84. unclear whether Section 11 insurance cert was ever sent.",
+        "score": 0.2115,
+        "confidence": 0.692
+      }
+    ],
+    "Timeline": [
+      {
+        "citation": "complaint_scan.ocr.txt p1:5-8",
+        "text": "The parties signed the master services agreement on October 5, 1984. Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay. Hudson Valley Development LLC contends that no written delay notice was delivered before the October invoice. Invoice no. 4421 sought payment of $185,000 for structural work.",
+        "score": 0.4317,
+        "confidence": 0.74
+      },
+      {
+        "citation": "inspection_log.txt p1:1-4",
+        "text": "Inspection Log - 18 Morton Street October 12, 1984 - water intrusion observed in basement corridor. October 13, 1984 - east retaining wall hairline cracking recorded. Contractor representative absent from 9:00 AM walk-through.",
+        "score": 0.2454,
+        "confidence": 0.96
+      }
+    ],
+    "Allegations and obligations": [
+      {
+        "citation": "complaint_scan.ocr.txt p1:5-8",
+        "text": "The parties signed the master services agreement on October 5, 1984. Section 8 required Mercer Construction Group, Inc. to provide weekly site reports and written notice of any delay. Hudson Valley Development LLC contends that no written delay notice was delivered before the October invoice. Invoice no. 4421 sought payment of $185,000 for structural work.",
+        "score": 0.3854,
+        "confidence": 0.74
+      },
+      {
+        "citation": "site_notes_handwritten.ocr.txt p1:1-4",
+        "text": "Handwritten margin notes: 10/14/84 spoke w/ J. Ross on missing reports. Owner says contractor promised cure by 10/20/84. unclear whether Section 11 insurance cert was ever sent.",
+        "score": 0.2241,
+        "confidence": 0.692
+      }
+    ],
+    "Open questions": [
+      {
+        "citation": "site_notes_handwritten.ocr.txt p1:1-4",
+        "text": "Handwritten margin notes: 10/14/84 spoke w/ J. Ross on missing reports. Owner says contractor promised cure by 10/20/84. unclear whether Section 11 insurance cert was ever sent.",
+        "score": 0.249,
+        "confidence": 0.692
+      },
+      {
+        "citation": "inspection_log.txt p1:1-4",
+        "text": "Inspection Log - 18 Morton Street October 12, 1984 - water intrusion observed in basement corridor. October 13, 1984 - east retaining wall hairline cracking recorded. Contractor representative absent from 9:00 AM walk-through.",
+        "score": 0.184,
+        "confidence": 0.96
+      }
+    ]
+  },
+  "section_grounding": [
+    {
+      "section_name": "Matter overview",
+      "status": "GROUNDED",
+      "evidence_count": 2,
+      "top_score": 0.4195,
+      "avg_confidence": 0.74,
+      "reason": ""
+    },
+    {
+      "section_name": "Key parties",
+      "status": "GROUNDED",
+      "evidence_count": 2,
+      "top_score": 0.2393,
+      "avg_confidence": 0.716,
+      "reason": ""
+    },
+    {
+      "section_name": "Timeline",
+      "status": "GROUNDED",
+      "evidence_count": 2,
+      "top_score": 0.4317,
+      "avg_confidence": 0.85,
+      "reason": ""
+    },
+    {
+      "section_name": "Allegations and obligations",
+      "status": "GROUNDED",
+      "evidence_count": 2,
+      "top_score": 0.3854,
+      "avg_confidence": 0.716,
+      "reason": ""
+    },
+    {
+      "section_name": "Open questions",
+      "status": "GROUNDED",
+      "evidence_count": 2,
+      "top_score": 0.249,
+      "avg_confidence": 0.826,
+      "reason": ""
+    }
+  ],
+  "overall_grounding_status": "GROUNDED"
+}
